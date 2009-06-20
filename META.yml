@@ -1,5 +1,5 @@
 ---
-abstract: ~
+abstract: "Perl interface to digitalnz.org.nz 's open data api."
 author: ~
 build_requires:
   ExtUtils::MakeMaker: 6.42
@@ -16,10 +16,11 @@ no_index:
   directory:
     - inc
 requires:
+  Carp: 0
   JSON::Any: 1.19
   LWP::UserAgent: 0
   URI::Escape: 0
   perl: 5.005
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
