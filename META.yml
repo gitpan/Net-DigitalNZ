@@ -1,5 +1,5 @@
 ---
-abstract: "Perl interface to digitalnz.org.nz 's open data api."
+abstract: "Perl interface to digitalnz.org 's open data api."
 author:
   - 'Brenda Wallace <brenda@wallace.net.nz> http://br3nda.com'
 build_requires:
@@ -24,4 +24,4 @@ requires:
   perl: 5.005
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.11
+version: 0.12
